@@ -1,0 +1,20 @@
+/* Global CSS variables extracted from the React project */
+:root{
+  --color-primary: #0088FF;
+  --color-primary-dark: #005fa3;
+  --color-navy: #003366;
+  --bg: #f7fafd;
+  --bg-alt: #ffffff;
+  --text: #1a1a1a;
+  --muted: #4a5a6a;
+  --border: #c7d0db;
+  --star: #ffc700;
+  --card-radius: 18px;
+}
+
+body{
+  margin:0;
+  font-family: Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
