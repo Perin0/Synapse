@@ -1,12 +1,11 @@
 <script lang="ts">
-  // Footer component ported from React footer
   export let year: number = new Date().getFullYear();
 </script>
 
 <footer class="footer">
   <div class="footer-content">
     <div class="footer-brand">
-      <a href="/"> <img src="/logo.png" alt="MentorOn"/> </a>
+      <a href="/"> <img src="/logo.png" alt="Synapse"/> </a>
       <p>Conectando pessoas e conhecimento.</p>
     </div>
     <div class="footer-links">
@@ -16,5 +15,5 @@
       <a href="/politica-privacidade">Política de Privacidade</a>
     </div>
   </div>
-  <div class="footer-bottom">© {year} MentorOn. Todos os direitos reservados.</div>
+  <div class="footer-bottom">© {year} Synapse. Todos os direitos reservados.</div>
 </footer>
